@@ -163,3 +163,31 @@ p {
     height: 4px;
   }
 }
+#clockdiv{
+	color: #fff;
+	display: inline-block;
+  font-weight: 700;
+	text-align: center;
+  font-size: 50px;
+  position: absolute;
+  bottom: 165px;
+  left: 50%;
+  margin-left: -215px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
