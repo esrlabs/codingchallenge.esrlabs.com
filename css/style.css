@@ -88,6 +88,13 @@ h1 {
   font-weight: 700;
   letter-spacing: 0.015em;
 }
+h2 {
+  text-transform: uppercase;
+  font-size: 85px;
+  font-weight: 700;
+  letter-spacing: 0.015em;
+  font-family: 'Source Code Pro', monospace;
+}
 h1::after {
   content: '';
   width: 80px;
@@ -126,10 +133,16 @@ p {
   h1 {
     font-size: 70px;
   }
+  h2 {
+    font-size: 70px;
+  }
 }
 
 @media only screen and (max-width: 800px) {
   h1 {
+    font-size: 48px;
+  }
+  h2 {
     font-size: 48px;
   }
   h1::after {
@@ -142,6 +155,9 @@ p {
     padding: 0 10px;
   }
   h1 {
+    font-size: 30px;
+  }
+  h2 {
     font-size: 30px;
   }
   h1::after {
@@ -159,26 +175,30 @@ p {
   h1 {
     font-size: 28px;
   }
+  h2 {
+    font-size: 28px;
+  }
   h1::after {
     height: 4px;
   }
 }
 #clockdiv{
-	color: #fff;
-	display: inline-block;
-  font-weight: 700;
-	text-align: center;
-  font-size: 50px;
-  position: absolute;
-  bottom: 165px;
-  left: 50%;
-  margin-left: -215px;
+	/* color: #fff; */
+	/* display: inline-block; */
+  /* font-weight: 700; */
+	/* text-align: center; */
+  /* /* font-size: 50px; */ */
+  /* position: absolute; */
+  /* bottom: 165px; */
+  /* left: 50%; */
+  /* margin-left: -215px; */
 }
 
 #clockdiv > div{
 	padding: 10px;
 	border-radius: 3px;
 	display: inline-block;
+	margin-top: 3em;
 }
 
 #clockdiv div > span{
