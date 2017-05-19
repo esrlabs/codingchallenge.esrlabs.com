@@ -38,6 +38,6 @@ function initializeClock(id, endtime) {
 }
 
 $(function(){
-  var deadline = new Date("May 19, 2017 12:00:00");
+  var deadline = new Date("May 26, 2017 12:00:00");
   initializeClock('clockdiv', deadline);
 });
